@@ -29,7 +29,7 @@
  */
 import java.util.*;
 
-class Solution {
+class LC1313 {
     
     public int[] decompressRLElist(int[] nums) {
         
