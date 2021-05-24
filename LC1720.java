@@ -1,4 +1,5 @@
-/*1720. Decode XORed Array
+/*
+1720. Decode XORed Array
 
 There is a hidden integer array arr that consists of n non-negative integers.
 
@@ -26,7 +27,8 @@ Constraints:
 2 <= n <= 104
 encoded.length == n - 1
 0 <= encoded[i] <= 105
-0 <= first <= 105*/
+0 <= first <= 105
+*/
 
 
 public class LC1720 {
