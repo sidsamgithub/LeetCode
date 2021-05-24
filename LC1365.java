@@ -25,6 +25,7 @@ Input: nums = [7,7,7,7]
 Output: [0,0,0,0]
  
 
+
 Constraints:
 
 2 <= nums.length <= 500
