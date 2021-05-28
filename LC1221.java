@@ -32,6 +32,7 @@
  */
 
 class Solution {
+    
     public int balancedStringSplit(String s) {
         
         int count =0;
