@@ -1,3 +1,5 @@
+//====================== Easy difficulty ================ 
+
 1365. How Many Numbers Are Smaller Than the Current Number  
 1512. Number of Good Pairs 
 771. Jewels and Stones  
@@ -9,4 +11,8 @@
 1588. Sum of All Odd Length Subarrays    
 1534. Count Good Triplets
 728. Self Dividing Numbers
-977. Squares of a Sorted Array Easy
+977. Squares of a Sorted Array 
+
+
+//============= Harder than usual problems ==============
+1089. Duplicate Zeros
