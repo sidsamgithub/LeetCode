@@ -13,6 +13,7 @@
 728. Self Dividing Numbers
 977. Squares of a Sorted Array 
 
+test
 
 //============= Harder than usual problems ==============
 1089. Duplicate Zeros
