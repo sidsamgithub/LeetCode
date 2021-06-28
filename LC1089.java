@@ -26,54 +26,39 @@ Note:
 0 <= arr[i] <= 9*/
 
 
-
 class Solution {
-   public void duplicateZeros(int[] arr) {
-
-       int countOfZeroes = 0;
-       
-       for (int a: arr)
-       {
-           if (a == 0) countOfZeroes++;
-       }
-       
+    public void duplicateZeros(int[] arr) {
         
-       int i = arr.length-1;
-       int j = arr.length + countOfZeroes - 1;
-       
-       while (i>=0 && j>=0)
-       {
-           if (arr[i]==0)
-           {
-               if(j<arr.length)
-               {
-                   arr[j]=arr[i];
-               }
-                   j--;
-                   
-                if(j<arr.length)
-                {
-                   arr[j]=arr[i];
-                }
-                   
-               j--;
-               i--;
- 
-           }
-           else{
-                
-               if(j<arr.length)
-               {
-                   arr[j]=arr[i];
-               }
-               
-               j--;
-               i--;
-               
-           }
-           
-           
-       }
-       
-   }
+        int zeroes = 0;
+        
+        for(int a:arr)
+        {
+            if (a==0) zeroes++;
+        }
+        
+        int i = arr.length - 1;
+        int j = arr.length + zeroes - 1;
+        
+        while (i!=j)
+        {
+           shift(arr,i,j);
+            j--;
+            if (arr[i]==0)
+            {
+                shift(arr,i,j);
+                j--;
+            }
+            i--;
+        }
+        
+    }
+    
+    public void shift(int[] arr,int i,int j)
+    {
+        if (j<arr.length)
+        {
+            arr[j]=arr[i];
+        }
+    }
+    
 }
